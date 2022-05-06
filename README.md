@@ -28,7 +28,7 @@ measurements -- 通过各种手段获得的耳机原始频响曲线，格式为�
 
 compensation -- 数据来源的理想曲线，Autoeq项目算法的必须品
 
-result -- 通过优化+主观听音后的数据，格式为 #原始耳机 to #目标耳机 .csv ， 使用感受跟评价会在各result下进行评价
+result -- 通过优化+主观听音后的数据，格式为 #原始耳机 to #目标耳机 .csv ，带有对比图，可以看到还原到什么程度，使用感受跟评价会在各result下进行评价
 
 Autoeq code sample -- 个人使用Autoeq的示范代码，详细方式请看： Autoeq [GitHub Pages](https://github.com/jaakkopasanen/AutoEq)
 
