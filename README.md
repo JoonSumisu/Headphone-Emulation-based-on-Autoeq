@@ -61,6 +61,13 @@ Autoeq format to Neutron -- 将Autoeq 的ParametricEQ 文字 格式改写成 neu
 朋友的设备：天龙的d5200，三星 buds plus 等等。
 
 # EQ软件
+全平台：
+
+[Neutron Music Player](https://neutroncode.com/)
+
+测试下最好用的播放器，自带Autoeq的补偿曲线，也可以通过上面的小脚本倒入多filter的eq，也可以写入其他大神写的补偿曲线，还能使用corssfeed模拟音箱的声场
+
+加上现在win11，跟m1 mac都能按照手机应用了。 neutron可能是最优解
 
 Andorid：
 
@@ -86,7 +93,7 @@ Windows：
 
 Mac:
 
-[eqmac]（https://eqmac.app/）
+[eqmac](https://eqmac.app/)
 
 因该是Mac的最优解，但是是月租形式的，我没买
 
