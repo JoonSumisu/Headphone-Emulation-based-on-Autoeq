@@ -1,0 +1,11 @@
+python autoeq.py 
+--input_dir="measurements/oratory1990/data/onear/Sennheiser HD 600" #原始耳机数据
+--output_dir="my_results/Sennheiser HD AKG K702 to Sennheiser HD 800 S" #输出文件地址文件夹名字
+--compensation="compensation/harman_over-ear_2018_wo_bass.csv" #sound_signature 理想曲线
+--sound_signature="measurements/oratory1990/data/onear/Stax SR-009S/Stax SR-009S.csv" #模拟耳机数据
+--equalize --parametric_eq --bass_boost=4 #bass boost取决于 理想曲线的测量方法
+--convolution_eq 
+--max_filters=5+15 #滤波器数量
+--fs=44100,48000 
+--max_gain=8.0 #关健系数，调整调整范围
+--show_plot #直接看对比图 
