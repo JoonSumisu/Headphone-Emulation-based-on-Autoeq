@@ -28,7 +28,7 @@ measurements -- 通过各种手段获得的耳机原始频响曲线，格式为�
 
 compensation -- 数据来源的理想曲线，Autoeq项目算法的必须品
 
-result -- 通过优化+主观听音后的数据，格式为 #原始耳机 to #目标耳机 .csv
+result -- 通过优化+主观听音后的数据，格式为 #原始耳机 to #目标耳机 .csv ， 使用感受跟评价会在各result下进行评价
 
 Autoeq code sample -- 个人使用Autoeq的示范代码，详细方式请看： Autoeq [GitHub Pages](https://github.com/jaakkopasanen/AutoEq)
 
@@ -65,6 +65,8 @@ Autoeq format to Neutron -- 将Autoeq 的ParametricEQ 文字 格式改写成 neu
 
 [Neutron Music Player](https://neutroncode.com/)
 
+由于为了通过更小的增益压低失真，需要10个以上的filter，neutron是很好的选择
+
 测试下最好用的播放器，自带Autoeq的补偿曲线，也可以通过上面的小脚本倒入多filter的eq，也可以写入其他大神写的补偿曲线，还能使用corssfeed模拟音箱的声场
 
 加上现在win11，跟m1 mac都能按照手机应用了。 neutron可能是最优解
@@ -97,4 +99,9 @@ Mac:
 
 因该是Mac的最优解，但是是月租形式的，我没买
 
+# 现有问题
+
+对于Autoeq的理解不够深，部分耳机无法很好的还原
+
+另外Autoeq的算法无法限定模拟范围，导致了频响曲线的模拟不是很理想，希望能那天变强到改写原代码
 
