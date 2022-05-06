@@ -22,13 +22,19 @@ Autoeq [GitHub Pages](https://github.com/jaakkopasanen/AutoEq)
 
 视频解释 https://www.youtube.com/watch?v=u2jHbaGST_Q
 
+# 曲线模拟的价值
+
+![jpg](https://pic1.zhimg.com/80/v2-651538aa4d7371030eab72191cb5894c_720w.jpg)
+
+[简单论述](https://zhuanlan.zhihu.com/p/65388300)
+
 # 目录
 
 measurements -- 通过各种手段获得的耳机原始频响曲线，格式为： 耳机名+来源平台.csv
 
 compensation -- 数据来源的理想曲线，Autoeq项目算法的必须品
 
-result -- 通过优化+主观听音后的数据，格式为 #原始耳机 to #目标耳机 .csv ， 使用感受跟评价会在各result下进行评价
+result -- 通过优化+主观听音后的数据，格式为 #原始耳机 to #目标耳机 .csv ，带有对比图，可以看到还原到什么程度
 
 Autoeq code sample -- 个人使用Autoeq的示范代码，详细方式请看： Autoeq [GitHub Pages](https://github.com/jaakkopasanen/AutoEq)
 
