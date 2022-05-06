@@ -22,9 +22,11 @@ Autoeq [GitHub Pages](https://github.com/jaakkopasanen/AutoEq)
 
 视频解释 https://www.youtube.com/watch?v=u2jHbaGST_Q
 
-# 曲线模拟的价值
+# 曲线模拟
 
 ![jpg](https://pic1.zhimg.com/80/v2-651538aa4d7371030eab72191cb5894c_720w.jpg)
+
+当然不同腔体的听感是有巨大的区别的，但是在结构类似的耳机中是可以做到接近的感受，对于没钱买那么多东西的我们来说是非常不错的玩法
 
 [简单论述](https://zhuanlan.zhihu.com/p/65388300)
 
