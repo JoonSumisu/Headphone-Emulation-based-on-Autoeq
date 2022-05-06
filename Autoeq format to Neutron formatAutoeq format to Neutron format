@@ -1,0 +1,21 @@
+#打开原始文件
+with open('/原始文件','r') as fA:
+    preamp = fA.readline().split()[1]
+    gain = []
+    freq = []
+    Q = []
+    count = 0
+    for line in fA:
+        if line:
+            lstLine = line.split()
+            gain.append(lstLine[8])
+            freq.append(lstLine[5])
+            Q.append(lstLine[11])
+            count += 1
+
+#打开目标文件
+with open('/目标文件','w') as fB:
+    fB.write('<preset id="" name="" desc="JS" bind="0" lock="3" preamp="{}">\n'.format(preamp))
+    for i in range(count):
+        fB.write('\t<band type="PEAKEQ" gain="{}" freq="{}" Q="{}" />\n'.format(gain[i], freq[i], Q[i]))
+    fB.write('</preset>')
