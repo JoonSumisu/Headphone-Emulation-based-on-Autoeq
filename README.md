@@ -22,6 +22,12 @@ Autoeq [GitHub Pages](https://github.com/jaakkopasanen/AutoEq)
 
 视频解释 https://www.youtube.com/watch?v=u2jHbaGST_Q
 
+# 曲线模拟的价值
+
+![jpg](https://pic1.zhimg.com/80/v2-651538aa4d7371030eab72191cb5894c_720w.jpg)
+
+[简单论述](https://zhuanlan.zhihu.com/p/65388300)
+
 # 目录
 
 measurements -- 通过各种手段获得的耳机原始频响曲线，格式为： 耳机名+来源平台.csv
